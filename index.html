@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Verse India</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= LOADER ================= -->
+<div id="loader">
+  <div class="loader-content">
+    <div class="loader-line"></div>
+    <img src="assets/images/logo.png" class="loader-logo">
+    <p>Loading experience...</p>
+  </div>
+</div>
+
+<!-- ================= CURSOR GLOW ================= -->
+<div class="cursor-glow"></div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">
+    <img src="assets/images/logo.png">
+    <span>MapVerse</span>
+  </div>
+
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="maps.html">Maps</a>
+    <a href="model.html">3D Model</a>
+    <a href="team.html">Team</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-content">
+
+    <span class="tag">INTERACTIVE GEOGRAPHY PROJECT</span>
+
+    <h1>
+      Explore India’s <br>
+      <span class="gradient-text">Physical Features</span>
+    </h1>
+
+    <p>
+      Discover the diverse landscapes that shape the Indian subcontinent —
+      mountains, plains, deserts, and coastlines.
+    </p>
+
+    <div class="buttons">
+      <a href="maps.html" class="btn primary">Explore Map</a>
+      <a href="maps.html" class="btn secondary">View Slides</a>
+      <a href="model.html" class="btn secondary">3D Model</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= MAP PREVIEW ================= -->
+<section class="map-preview">
+  <img src="assets/images/india-map.png" class="map-image">
+
+  <div class="map-controls">
+    <button>+</button>
+    <button>-</button>
+  </div>
+
+  <div class="auto-guide">
+    <button id="startGuide">▶ Auto Guide</button>
+  </div>
+</section>
+
+<!-- ================= INTRO TEXT ================= -->
+<section class="intro">
+  <h2>A Land of Extraordinary Contrasts</h2>
+  <p>
+    India's geography is a masterpiece of nature — from the youngest mountains
+    to ancient plateaus, from deserts to tropical coasts.
+  </p>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="features">
+
+  <div class="card">
+    <h3>Interactive Map</h3>
+    <p>Explore India visually</p>
+  </div>
+
+  <div class="card">
+    <h3>3D Model</h3>
+    <p>Rotate and zoom terrain</p>
+  </div>
+
+  <div class="card">
+    <h3>Map Slides</h3>
+    <p>Scroll-based learning</p>
+  </div>
+
+  <div class="card">
+    <h3>Insights</h3>
+    <p>Learn key facts</p>
+  </div>
+
+</section>
+
+<!-- ================= VIDEO ================= -->
+<section class="video">
+  <h2>Project Overview Video</h2>
+
+  <iframe 
+    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats">
+
+  <div class="stat">
+    <h2>8,586</h2>
+    <p>Highest Peak (m)</p>
+  </div>
+
+  <div class="stat">
+    <h2>7,516</h2>
+    <p>Coastline (km)</p>
+  </div>
+
+  <div class="stat">
+    <h2>14</h2>
+    <p>Major Rivers</p>
+  </div>
+
+  <div class="stat">
+    <h2>28</h2>
+    <p>States</p>
+  </div>
+
+  <div class="stat">
+    <h2>8</h2>
+    <p>Union Territories</p>
+  </div>
+
+  <div class="stat">
+    <h2>15000+</h2>
+    <p>Glaciers</p>
+  </div>
+
+</section>
+
+<!-- ================= PHYSICAL DIVISIONS ================= -->
+<section class="divisions">
+
+  <div class="card">Mountain Ranges</div>
+  <div class="card">River Systems</div>
+  <div class="card">Forest Regions</div>
+  <div class="card">Desert & Plains</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>Map Verse India • Class 9 Geography Project</p>
+</footer>
+
+<!-- JS -->
+<script src="js/main.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/guide.js"></script>
+
+</body>
+</html>
