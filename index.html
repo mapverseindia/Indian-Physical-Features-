@@ -8,7 +8,6 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animations.css">
-  <link rel="stylesheet" href="css/components.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -25,7 +24,7 @@
   </div>
 </div>
 
-<!-- ================= CURSOR GLOW ================= -->
+<!-- ================= CURSOR ================= -->
 <div class="cursor-glow"></div>
 
 <!-- ================= NAVBAR ================= -->
@@ -45,7 +44,7 @@
 
 <!-- ================= HERO ================= -->
 <section class="hero">
-  <div class="hero-content">
+  <div class="hero-content fade-in">
 
     <span class="tag">INTERACTIVE GEOGRAPHY PROJECT</span>
 
@@ -55,8 +54,8 @@
     </h1>
 
     <p>
-      Discover the diverse landscapes that shape the Indian subcontinent —
-      mountains, plains, deserts, and coastlines.
+      Journey through India's diverse landscapes — from the towering Himalayas
+      to the vast plains, deserts, and coastal regions.
     </p>
 
     <div class="buttons">
@@ -69,59 +68,55 @@
 </section>
 
 <!-- ================= MAP PREVIEW ================= -->
-<section class="map-preview">
-  <img src="assets/images/india-map.png" class="map-image">
+<section class="map-preview fade-in">
+  <h2>Explore the Map</h2>
 
-  <div class="map-controls">
-    <button>+</button>
-    <button>-</button>
-  </div>
+  <img src="assets/images/india-map.png" class="map-image float">
 
   <div class="auto-guide">
-    <button id="startGuide">▶ Auto Guide</button>
+    <button id="startGuide">▶ Start Guided Tour</button>
   </div>
 </section>
 
-<!-- ================= INTRO TEXT ================= -->
-<section class="intro">
+<!-- ================= INTRO ================= -->
+<section class="intro fade-in">
   <h2>A Land of Extraordinary Contrasts</h2>
   <p>
-    India's geography is a masterpiece of nature — from the youngest mountains
-    to ancient plateaus, from deserts to tropical coasts.
+    India is a land of geographical diversity, featuring mountains, plains,
+    plateaus, deserts, and coastal regions — each with unique characteristics.
   </p>
 </section>
 
 <!-- ================= FEATURES ================= -->
 <section class="features">
 
-  <div class="card">
-    <h3>Interactive Map</h3>
-    <p>Explore India visually</p>
+  <div class="card fade-in">
+    <h3>Interactive Learning</h3>
+    <p>Scroll-based educational experience</p>
   </div>
 
-  <div class="card">
-    <h3>3D Model</h3>
-    <p>Rotate and zoom terrain</p>
+  <div class="card fade-in delay-1">
+    <h3>3D Exploration</h3>
+    <p>Visualize India in 3D</p>
   </div>
 
-  <div class="card">
-    <h3>Map Slides</h3>
-    <p>Scroll-based learning</p>
+  <div class="card fade-in delay-2">
+    <h3>Guided Mode</h3>
+    <p>Auto navigation through content</p>
   </div>
 
-  <div class="card">
-    <h3>Insights</h3>
-    <p>Learn key facts</p>
+  <div class="card fade-in delay-3">
+    <h3>Visual Insights</h3>
+    <p>Understand geography with visuals</p>
   </div>
 
 </section>
 
 <!-- ================= VIDEO ================= -->
-<section class="video">
-  <h2>Project Overview Video</h2>
+<section class="video fade-in">
+  <h2>Project Overview</h2>
 
-  <iframe 
-    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
     frameborder="0"
     allowfullscreen>
   </iframe>
@@ -130,46 +125,75 @@
 <!-- ================= STATS ================= -->
 <section class="stats">
 
-  <div class="stat">
-    <h2>8,586</h2>
-    <p>Highest Peak (m)</p>
+  <div class="stat fade-in">
+    <h2>8,586m</h2>
+    <p>Highest Peak</p>
   </div>
 
-  <div class="stat">
-    <h2>7,516</h2>
-    <p>Coastline (km)</p>
+  <div class="stat fade-in">
+    <h2>7,516km</h2>
+    <p>Coastline</p>
   </div>
 
-  <div class="stat">
+  <div class="stat fade-in">
     <h2>14</h2>
     <p>Major Rivers</p>
   </div>
 
-  <div class="stat">
+  <div class="stat fade-in">
     <h2>28</h2>
     <p>States</p>
   </div>
 
-  <div class="stat">
+  <div class="stat fade-in">
     <h2>8</h2>
     <p>Union Territories</p>
   </div>
 
-  <div class="stat">
+  <div class="stat fade-in">
     <h2>15000+</h2>
     <p>Glaciers</p>
   </div>
 
+  <div class="stat fade-in">
+    <h2>200+</h2>
+    <p>Lakes</p>
+  </div>
+
 </section>
 
-<!-- ================= PHYSICAL DIVISIONS ================= -->
+<!-- ================= DIVISIONS ================= -->
 <section class="divisions">
 
-  <div class="card">Mountain Ranges</div>
-  <div class="card">River Systems</div>
-  <div class="card">Forest Regions</div>
-  <div class="card">Desert & Plains</div>
+  <div class="card fade-in">
+    <h3>Mountain Ranges</h3>
+    <p>Himalayas and ranges</p>
+  </div>
 
+  <div class="card fade-in">
+    <h3>River Systems</h3>
+    <p>Ganga, Yamuna, Brahmaputra</p>
+  </div>
+
+  <div class="card fade-in">
+    <h3>Plateaus</h3>
+    <p>Deccan Plateau</p>
+  </div>
+
+  <div class="card fade-in">
+    <h3>Deserts</h3>
+    <p>Thar Desert</p>
+  </div>
+
+</section>
+
+<!-- ================= EXTRA SECTION ================= -->
+<section class="intro fade-in">
+  <h2>Why This Project?</h2>
+  <p>
+    This project aims to present geography in a modern and interactive way,
+    making learning engaging and visually appealing.
+  </p>
 </section>
 
 <!-- ================= FOOTER ================= -->
@@ -180,7 +204,6 @@
 <!-- JS -->
 <script src="js/main.js"></script>
 <script src="js/ui.js"></script>
-<script src="js/guide.js"></script>
 
 </body>
 </html>
