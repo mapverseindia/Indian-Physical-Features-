@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maps • Map Verse India</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">
+    <img src="assets/images/logo.png">
+    <span>MapVerse</span>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="maps.html" class="active">Maps</a>
+    <a href="model.html">3D Model</a>
+    <a href="team.html">Team</a>
+  </nav>
+</header>
+
+<!-- ================= AUTO GUIDE BUTTON ================= -->
+<div class="guide-control">
+  <button id="autoGuideBtn">▶ Start Guide</button>
+</div>
+
+<!-- ================= SCROLL INDICATOR ================= -->
+<div class="scroll-indicator">
+  <div class="scroll-dot active"></div>
+  <div class="scroll-dot"></div>
+  <div class="scroll-dot"></div>
+  <div class="scroll-dot"></div>
+  <div class="scroll-dot"></div>
+  <div class="scroll-dot"></div>
+</div>
+
+<!-- ================= SLIDES ================= -->
+<main class="slides-container">
+
+  <!-- ================= SLIDE 1 ================= -->
+  <section class="slide">
+    <div class="slide-content">
+
+      <div class="slide-left">
+        <img src="assets/icons/mountain.svg">
+      </div>
+
+      <div class="slide-right">
+        <span class="tag">Crown of the World</span>
+        <h2>Himalayan Mountains</h2>
+
+        <p>
+          The Himalayas are the youngest and highest mountain ranges in the world,
+          forming India's northern boundary.
+        </p>
+
+        <ul>
+          <li>Includes Mount Everest region</li>
+          <li>Source of major rivers</li>
+          <li>Acts as climate barrier</li>
+          <li>Rich biodiversity</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SLIDE 2 ================= -->
+  <section class="slide">
+    <div class="slide-content reverse">
+
+      <div class="slide-left">
+        <img src="assets/icons/plains.svg">
+      </div>
+
+      <div class="slide-right">
+        <span class="tag">Fertile Heartland</span>
+        <h2>Northern Plains</h2>
+
+        <p>
+          Formed by rivers like Ganga and Yamuna, these plains are among the most fertile regions.
+        </p>
+
+        <ul>
+          <li>Dense population</li>
+          <li>Agriculture hub</li>
+          <li>Flat land</li>
+          <li>Alluvial soil</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SLIDE 3 ================= -->
+  <section class="slide">
+    <div class="slide-content">
+
+      <div class="slide-left">
+        <img src="assets/icons/plateau.svg">
+      </div>
+
+      <div class="slide-right">
+        <span class="tag">Ancient Land</span>
+        <h2>Peninsular Plateau</h2>
+
+        <p>
+          One of the oldest landmasses of Earth, rich in minerals and resources.
+        </p>
+
+        <ul>
+          <li>Rich in minerals</li>
+          <li>Deccan Plateau</li>
+          <li>Rocky terrain</li>
+          <li>Stable landmass</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SLIDE 4 ================= -->
+  <section class="slide">
+    <div class="slide-content reverse">
+
+      <div class="slide-left">
+        <img src="assets/icons/desert.svg">
+      </div>
+
+      <div class="slide-right">
+        <span class="tag">Arid Region</span>
+        <h2>Thar Desert</h2>
+
+        <p>
+          Located in Rajasthan, this desert has extreme climate and sandy terrain.
+        </p>
+
+        <ul>
+          <li>Low rainfall</li>
+          <li>Sand dunes</li>
+          <li>Hot days, cold nights</li>
+          <li>Sparse vegetation</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SLIDE 5 ================= -->
+  <section class="slide">
+    <div class="slide-content">
+
+      <div class="slide-left">
+        <img src="assets/icons/coast.svg">
+      </div>
+
+      <div class="slide-right">
+        <span class="tag">Coastal Beauty</span>
+        <h2>Coastal Plains</h2>
+
+        <p>
+          Stretching along eastern and western edges, these areas are rich in ports and trade.
+        </p>
+
+        <ul>
+          <li>Eastern & Western coast</li>
+          <li>Fishing industry</li>
+          <li>Ports & trade</li>
+          <li>Tropical climate</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SLIDE 6 ================= -->
+  <section class="slide">
+    <div class="slide-content reverse">
+
+      <div class="slide-left">
+        <img src="assets/icons/island.svg">
+      </div>
+
+      <div class="slide-right">
+        <span class="tag">Oceanic Regions</span>
+        <h2>Islands</h2>
+
+        <p>
+          India has two island groups — Andaman & Nicobar and Lakshadweep.
+        </p>
+
+        <ul>
+          <li>Coral islands</li>
+          <li>Volcanic origins</li>
+          <li>Tourism hotspots</li>
+          <li>Rich marine life</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= JS ================= -->
+<script src="js/main.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/slides.js"></script>
+<script src="js/guide.js"></script>
+
+</body>
+</html>
